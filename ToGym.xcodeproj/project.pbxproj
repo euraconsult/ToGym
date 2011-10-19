@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0C48801144EC5AB0053E78A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C48800144EC5AB0053E78A /* UIKit.framework */; };
+		D0C48803144EC5AB0053E78A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C48802144EC5AB0053E78A /* Foundation.framework */; };
+		D0C48805144EC5AB0053E78A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C48804144EC5AB0053E78A /* CoreGraphics.framework */; };
+		D0C4880B144EC5AB0053E78A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C48809144EC5AB0053E78A /* InfoPlist.strings */; };
+		D0C4880D144EC5AB0053E78A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C4880C144EC5AB0053E78A /* main.m */; };
+		D0C48811144EC5AB0053E78A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C48810144EC5AB0053E78A /* AppDelegate.m */; };
+		D0C48814144EC5AB0053E78A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C48812144EC5AB0053E78A /* MainStoryboard_iPhone.storyboard */; };
+		D0C48817144EC5AB0053E78A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C48815144EC5AB0053E78A /* MainStoryboard_iPad.storyboard */; };
+		D0C4881A144EC5AB0053E78A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C48819144EC5AB0053E78A /* FirstViewController.m */; };
+		D0C4881C144EC5AB0053E78A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C4881B144EC5AB0053E78A /* first.png */; };
+		D0C4881E144EC5AB0053E78A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C4881D144EC5AB0053E78A /* first@2x.png */; };
+		D0C48821144EC5AB0053E78A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C48820144EC5AB0053E78A /* SecondViewController.m */; };
+		D0C48823144EC5AB0053E78A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C48822144EC5AB0053E78A /* second.png */; };
+		D0C48825144EC5AB0053E78A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C48824144EC5AB0053E78A /* second@2x.png */; };
+		D0C4882D144EC5AB0053E78A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C4882C144EC5AB0053E78A /* SenTestingKit.framework */; };
+		D0C4882E144EC5AB0053E78A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C48800144EC5AB0053E78A /* UIKit.framework */; };
+		D0C4882F144EC5AB0053E78A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C48802144EC5AB0053E78A /* Foundation.framework */; };
+		D0C48837144EC5AC0053E78A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C48835144EC5AB0053E78A /* InfoPlist.strings */; };
+		D0C4883A144EC5AC0053E78A /* ToGymTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C48839144EC5AC0053E78A /* ToGymTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0C48830144EC5AB0053E78A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C487F3144EC5AB0053E78A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C487FB144EC5AB0053E78A;
+			remoteInfo = ToGym;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0C487FC144EC5AB0053E78A /* ToGym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToGym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C48800144EC5AB0053E78A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0C48802144EC5AB0053E78A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0C48804144EC5AB0053E78A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0C48808144EC5AB0053E78A /* ToGym-Info.plist */ = {isa = PBXFileReference; path = "ToGym-Info.plist"; sourceTree = "<group>"; };
+		D0C4880A144EC5AB0053E78A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0C4880C144EC5AB0053E78A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C4880E144EC5AB0053E78A /* ToGym-Prefix.pch */ = {isa = PBXFileReference; path = "ToGym-Prefix.pch"; sourceTree = "<group>"; };
+		D0C4880F144EC5AB0053E78A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0C48810144EC5AB0053E78A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0C48813144EC5AB0053E78A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D0C48816144EC5AB0053E78A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D0C48818144EC5AB0053E78A /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		D0C48819144EC5AB0053E78A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D0C4881B144EC5AB0053E78A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D0C4881D144EC5AB0053E78A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D0C4881F144EC5AB0053E78A /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		D0C48820144EC5AB0053E78A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D0C48822144EC5AB0053E78A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D0C48824144EC5AB0053E78A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D0C4882B144EC5AB0053E78A /* ToGymTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToGymTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C4882C144EC5AB0053E78A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0C48834144EC5AB0053E78A /* ToGymTests-Info.plist */ = {isa = PBXFileReference; path = "ToGymTests-Info.plist"; sourceTree = "<group>"; };
+		D0C48836144EC5AB0053E78A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0C48838144EC5AC0053E78A /* ToGymTests.h */ = {isa = PBXFileReference; path = ToGymTests.h; sourceTree = "<group>"; };
+		D0C48839144EC5AC0053E78A /* ToGymTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToGymTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C487F9144EC5AB0053E78A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C48801144EC5AB0053E78A /* UIKit.framework in Frameworks */,
+				D0C48803144EC5AB0053E78A /* Foundation.framework in Frameworks */,
+				D0C48805144EC5AB0053E78A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C48827144EC5AB0053E78A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C4882D144EC5AB0053E78A /* SenTestingKit.framework in Frameworks */,
+				D0C4882E144EC5AB0053E78A /* UIKit.framework in Frameworks */,
+				D0C4882F144EC5AB0053E78A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0C487F1144EC5AB0053E78A = {
+			isa = PBXGroup;
+			children = (
+				D0C48806144EC5AB0053E78A /* ToGym */,
+				D0C48832144EC5AB0053E78A /* ToGymTests */,
+				D0C487FF144EC5AB0053E78A /* Frameworks */,
+				D0C487FD144EC5AB0053E78A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C487FD144EC5AB0053E78A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C487FC144EC5AB0053E78A /* ToGym.app */,
+				D0C4882B144EC5AB0053E78A /* ToGymTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C487FF144EC5AB0053E78A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C48800144EC5AB0053E78A /* UIKit.framework */,
+				D0C48802144EC5AB0053E78A /* Foundation.framework */,
+				D0C48804144EC5AB0053E78A /* CoreGraphics.framework */,
+				D0C4882C144EC5AB0053E78A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C48806144EC5AB0053E78A /* ToGym */ = {
+			isa = PBXGroup;
+			children = (
+				D0C4880F144EC5AB0053E78A /* AppDelegate.h */,
+				D0C48810144EC5AB0053E78A /* AppDelegate.m */,
+				D0C48812144EC5AB0053E78A /* MainStoryboard_iPhone.storyboard */,
+				D0C48815144EC5AB0053E78A /* MainStoryboard_iPad.storyboard */,
+				D0C48818144EC5AB0053E78A /* FirstViewController.h */,
+				D0C48819144EC5AB0053E78A /* FirstViewController.m */,
+				D0C4881B144EC5AB0053E78A /* first.png */,
+				D0C4881D144EC5AB0053E78A /* first@2x.png */,
+				D0C4881F144EC5AB0053E78A /* SecondViewController.h */,
+				D0C48820144EC5AB0053E78A /* SecondViewController.m */,
+				D0C48822144EC5AB0053E78A /* second.png */,
+				D0C48824144EC5AB0053E78A /* second@2x.png */,
+				D0C48807144EC5AB0053E78A /* Supporting Files */,
+			);
+			path = ToGym;
+			sourceTree = "<group>";
+		};
+		D0C48807144EC5AB0053E78A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C48808144EC5AB0053E78A /* ToGym-Info.plist */,
+				D0C48809144EC5AB0053E78A /* InfoPlist.strings */,
+				D0C4880C144EC5AB0053E78A /* main.m */,
+				D0C4880E144EC5AB0053E78A /* ToGym-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C48832144EC5AB0053E78A /* ToGymTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0C48838144EC5AC0053E78A /* ToGymTests.h */,
+				D0C48839144EC5AC0053E78A /* ToGymTests.m */,
+				D0C48833144EC5AB0053E78A /* Supporting Files */,
+			);
+			path = ToGymTests;
+			sourceTree = "<group>";
+		};
+		D0C48833144EC5AB0053E78A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C48834144EC5AB0053E78A /* ToGymTests-Info.plist */,
+				D0C48835144EC5AB0053E78A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C487FB144EC5AB0053E78A /* ToGym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C4883D144EC5AC0053E78A /* Build configuration list for PBXNativeTarget "ToGym" */;
+			buildPhases = (
+				D0C487F8144EC5AB0053E78A /* Sources */,
+				D0C487F9144EC5AB0053E78A /* Frameworks */,
+				D0C487FA144EC5AB0053E78A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToGym;
+			productName = ToGym;
+			productReference = D0C487FC144EC5AB0053E78A /* ToGym.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0C4882A144EC5AB0053E78A /* ToGymTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C48840144EC5AC0053E78A /* Build configuration list for PBXNativeTarget "ToGymTests" */;
+			buildPhases = (
+				D0C48826144EC5AB0053E78A /* Sources */,
+				D0C48827144EC5AB0053E78A /* Frameworks */,
+				D0C48828144EC5AB0053E78A /* Resources */,
+				D0C48829144EC5AB0053E78A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0C48831144EC5AB0053E78A /* PBXTargetDependency */,
+			);
+			name = ToGymTests;
+			productName = ToGymTests;
+			productReference = D0C4882B144EC5AB0053E78A /* ToGymTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C487F3144EC5AB0053E78A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D0C487F6144EC5AB0053E78A /* Build configuration list for PBXProject "ToGym" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0C487F1144EC5AB0053E78A;
+			productRefGroup = D0C487FD144EC5AB0053E78A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C487FB144EC5AB0053E78A /* ToGym */,
+				D0C4882A144EC5AB0053E78A /* ToGymTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C487FA144EC5AB0053E78A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C4880B144EC5AB0053E78A /* InfoPlist.strings in Resources */,
+				D0C48814144EC5AB0053E78A /* MainStoryboard_iPhone.storyboard in Resources */,
+				D0C48817144EC5AB0053E78A /* MainStoryboard_iPad.storyboard in Resources */,
+				D0C4881C144EC5AB0053E78A /* first.png in Resources */,
+				D0C4881E144EC5AB0053E78A /* first@2x.png in Resources */,
+				D0C48823144EC5AB0053E78A /* second.png in Resources */,
+				D0C48825144EC5AB0053E78A /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C48828144EC5AB0053E78A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C48837144EC5AC0053E78A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0C48829144EC5AB0053E78A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C487F8144EC5AB0053E78A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C4880D144EC5AB0053E78A /* main.m in Sources */,
+				D0C48811144EC5AB0053E78A /* AppDelegate.m in Sources */,
+				D0C4881A144EC5AB0053E78A /* FirstViewController.m in Sources */,
+				D0C48821144EC5AB0053E78A /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C48826144EC5AB0053E78A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C4883A144EC5AC0053E78A /* ToGymTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0C48831144EC5AB0053E78A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C487FB144EC5AB0053E78A /* ToGym */;
+			targetProxy = D0C48830144EC5AB0053E78A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0C48809144EC5AB0053E78A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C4880A144EC5AB0053E78A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0C48812144EC5AB0053E78A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C48813144EC5AB0053E78A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D0C48815144EC5AB0053E78A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C48816144EC5AB0053E78A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D0C48835144EC5AB0053E78A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C48836144EC5AB0053E78A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C4883B144EC5AC0053E78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0C4883C144EC5AC0053E78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C4883E144EC5AC0053E78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToGym/ToGym-Prefix.pch";
+				INFOPLIST_FILE = "ToGym/ToGym-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0C4883F144EC5AC0053E78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToGym/ToGym-Prefix.pch";
+				INFOPLIST_FILE = "ToGym/ToGym-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0C48841144EC5AC0053E78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToGym.app/ToGym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToGym/ToGym-Prefix.pch";
+				INFOPLIST_FILE = "ToGymTests/ToGymTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D0C48842144EC5AC0053E78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToGym.app/ToGym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToGym/ToGym-Prefix.pch";
+				INFOPLIST_FILE = "ToGymTests/ToGymTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C487F6144EC5AB0053E78A /* Build configuration list for PBXProject "ToGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C4883B144EC5AC0053E78A /* Debug */,
+				D0C4883C144EC5AC0053E78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C4883D144EC5AC0053E78A /* Build configuration list for PBXNativeTarget "ToGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C4883E144EC5AC0053E78A /* Debug */,
+				D0C4883F144EC5AC0053E78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0C48840144EC5AC0053E78A /* Build configuration list for PBXNativeTarget "ToGymTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C48841144EC5AC0053E78A /* Debug */,
+				D0C48842144EC5AC0053E78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C487F3144EC5AB0053E78A /* Project object */;
+}
